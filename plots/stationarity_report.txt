@@ -1,0 +1,26 @@
+
+STATIONARITY ANALYSIS - Anand Vihar AQI (6-hour interval series)
+==================================================================
+ADF Test:
+  ADF Statistic : -2.9525
+  p-value       : 0.039575
+  Critical Values: {'1%': np.float64(-3.431099195237286), '5%': np.float64(-2.8618710944295014), '10%': np.float64(-2.566946236596859)}
+  Conclusion    : Stationary (reject H0)
+
+KPSS Test:
+  KPSS Statistic : 0.1000
+  p-value        : 0.100000
+  Critical Values: {'10%': 0.347, '5%': 0.463, '2.5%': 0.574, '1%': 0.739}
+  Conclusion     : Stationary
+
+Basic Statistics:
+count    8768.000000
+mean      295.166857
+std       170.339401
+min        25.000000
+25%       126.000000
+50%       298.000000
+75%       500.000000
+max       500.000000
+
+Outlier count (IQR method): 0
